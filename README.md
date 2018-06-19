@@ -1,4 +1,4 @@
-# Feed Post Bot Skeleton to cmBB
+# Feed Post Bot to cmBB
 
 This extension ties Feed Post Bot to cmBB. It makes Feed Post Bot post its messages in a designated cmBB category instead of a regular topic.
 
