@@ -1,0 +1,29 @@
+{
+    "name": "ger/fpb2cmbb",
+    "type": "phpbb-extension",
+    "description": "Make Feed Post Bot post to cmBB",
+    "homepage": "",
+    "version": "1.0.0-dev",
+    "time": "2018-06-19",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Ger",
+            "email": "",
+            "homepage": "https://github.com/GerB",
+            "role": ""
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "ext-simplexml" : "*"
+    },
+    "extra": {
+        "display-name": "Feed Post Bot to cmBB",
+        "soft-require": {
+            "phpbb/phpbb": ">=3.2.2",
+            "ger/feedpostbot": ">=1.0.14",
+            "ger/cmbb": ">=1.0.6"
+        }
+    }
+}

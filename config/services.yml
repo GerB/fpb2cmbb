@@ -1,0 +1,10 @@
+services:
+    ger.fpb2cmbb.listener:
+        class: ger\fpb2cmbb\event\main_listener
+        arguments:
+            - '@ger.cmbb.cmbb.driver'
+            - '@ger.feedpostbot.classes.driver'
+            - '@language'
+            - '@controller.helper'
+        tags:
+            - { name: event.listener }
